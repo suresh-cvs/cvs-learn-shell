@@ -11,4 +11,4 @@ COUNT=COUNT+5
 echo "Total Count is: $COUNT"
 
 FRUITS=("Apple" "Banana" "Mango") # this is called an Array
-echo "All fruits are: ${FRUITS[@]}"
+echo "All fruits are: ${FRUITS[0]}"
