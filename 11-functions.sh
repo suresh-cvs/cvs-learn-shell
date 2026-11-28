@@ -19,7 +19,7 @@ echo "proceeding ###############"
 dnf install nginx -y
 validate $? "Nginx Installation - "
 
-dnf install mysqlll -y
-validate $? "Mysqlll Installation - "
+dnf install mysql -y
+validate $? "Mysql Installation - "
 
 echo "Still proceeded ,,,,,,,,,,,,,,,"
