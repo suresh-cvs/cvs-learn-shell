@@ -16,10 +16,10 @@ validate(){
     }
 
 echo "proceeding ###############"
-dnf install nginxxx -y
+dnf install nginx -y
 validate $? "Nginx Installation - "
 
-dnf install mysql -y
+dnf install mysqlll -y
 validate $? "Mysqlll Installation - "
 
 echo "Still proceeded ,,,,,,,,,,,,,,,"
